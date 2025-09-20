@@ -1,0 +1,20 @@
+# Data handling
+pandas>=1.3.0
+numpy>=1.21.0
+
+# NLP
+nltk>=3.6.3
+
+# Scikit-learn and related ML tools
+scikit-learn>=0.24.2
+joblib>=1.0.1
+
+# TensorFlow + Keras
+tensorflow>=2.6.0
+keras>=2.6.0
+
+# Optional: for json handling (standard library, but safe to add)
+json5  # optional, in case you're parsing .json with comments
+
+# Optional: if using GPU, install tensorflow-gpu instead
+# tensorflow-gpu>=2.6.0
